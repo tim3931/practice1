@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.todo{
+    background: #ddd;
+    padding: 10px;
+    border-bottom: 1px#000 dotted;
+}
+
+.del{
+    float: right;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    padding: 5px 9px;
+}
+
+.is-completed{
+    text-decoration: line-through;
+}
